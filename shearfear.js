@@ -658,6 +658,9 @@ function shearFear() {
     //Add images
     var sheep_img = new Image();
     sheep_img.src = "sheep_2.png";
+    var shear_img = new Image();
+    shear_img.src = "shear_2.png";
+
 
     var boop =  new Audio("boop.wav");
 
