@@ -255,9 +255,9 @@ function shearFear() {
         ctx.fillText("Press Spacebar to start.", 200, 400);
         if ( spacebar )
         {
-            //var music = new Audio("song2.wav");
-            //music.loop = true;
-            //music.play();
+            var music = new Audio("song2.wav");
+            music.loop = true;
+            music.play();
             initialize();
             player.x = 50;
             player.y = 50;
